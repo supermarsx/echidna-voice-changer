@@ -1,0 +1,161 @@
+# Build directories
+build/
+build-test/
+build-reports/
+cmake-build-*/
+*.build/
+build-*/
+
+# Android
+*.apk
+*.aab
+.gradle/
+local.properties
+/android/captures/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+android/gradle
+android/gradlew
+android/gradlew.bat
+
+# C++
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.cmake
+CMakeUserPresets.json
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+
+# GNU Makefile
+Makefile
+makefile
+*.mk
+*.mak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Testing
+*.gcda
+*.gcno
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+*.pdf
+*.png
+*.jpg
+*.gif
+*.svg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node.js (if any)
+node_modules/
+*.npm
+.yarn-integrity
+
+# Docker
+.dockerignore
+
+# Package managers
+Cargo.lock
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Generated files
+*.pb.cc
+*.pb.h
+
+# Specific to Echidna
+*.magisk
+*.module.zip
+device-test-results/
+test-reports/coverage/
+quality-reports/security/
+
+# Keep empty directories
+!important*/
+!.gitkeep
